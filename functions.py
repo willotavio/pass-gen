@@ -10,7 +10,7 @@ def generate_password(length, options, characters_options):
         password = ""
         choices = []
 
-        # choices array store the chose options numbers like: choices = {1, 2} -> choices = (numbers and symbols)
+        # choices array store the chosen options numbers like: choices = {1, 2} -> choices = (numbers and symbols)
         c = 0
         while c < len(options):
             if options[c] == 1:
